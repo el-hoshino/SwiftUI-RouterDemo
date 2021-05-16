@@ -11,13 +11,13 @@ enum ViewDRoute {
     case root
 }
 
-protocol ViewDRouter: AnyObject {
+protocol ViewDRouterDelegate: AnyObject {
     func viewNeedsRoute(to route: ViewDRoute)
 }
 
-struct ViewD<Router: ViewDRouter>: View {
+struct ViewD<Router: ViewDRouterDelegate>: View {
     
-    var router: Router
+    weak var router: Router?
     
     var int: Int
     
@@ -25,7 +25,7 @@ struct ViewD<Router: ViewDRouter>: View {
         VStack {
             Text("\(int)")
             Button(action: {
-                router.viewNeedsRoute(to: .root)
+                router?.viewNeedsRoute(to: .root)
             }, label: {
                 Text("Return to root")
             })

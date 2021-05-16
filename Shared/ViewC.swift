@@ -11,18 +11,18 @@ enum ViewCRoute {
     case back
 }
 
-protocol ViewCRouter: AnyObject {
+protocol ViewCRouterDelegate: AnyObject {
     func viewNeedsRoute(to route: ViewCRoute)
 }
 
-struct ViewC<Router: ViewCRouter>: View {
+struct ViewC<Router: ViewCRouterDelegate>: View {
     
-    var router: Router
+    weak var router: Router?
     
     var body: some View {
         
         Button(action: {
-            router.viewNeedsRoute(to: .back)
+            router?.viewNeedsRoute(to: .back)
         }, label: {
             Text("Tap me to go back")
         })

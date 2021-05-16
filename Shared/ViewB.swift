@@ -11,13 +11,13 @@ enum ViewBRoute {
     case d(index: Int)
 }
 
-protocol ViewBRouter: AnyObject {
+protocol ViewBRouterDelegate: AnyObject {
     func viewNeedsRoute(to route: ViewBRoute)
 }
 
-struct ViewB<Router: ViewBRouter>: View {
+struct ViewB<Router: ViewBRouterDelegate>: View {
     
-    var router: Router
+    weak var router: Router?
     
     var body: some View {
         
@@ -25,7 +25,7 @@ struct ViewB<Router: ViewBRouter>: View {
             
             ForEach(0 ..< 10) { index in
                 Button(action: {
-                    router.viewNeedsRoute(to: .d(index: index))
+                    router?.viewNeedsRoute(to: .d(index: index))
                 }, label: {
                     Text("Tap me to View D with Index \(index)")
                 })

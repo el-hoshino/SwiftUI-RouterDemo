@@ -13,18 +13,18 @@ enum ViewZRoute {
     case done
 }
 
-protocol ViewZRouter: AnyObject {
+protocol ViewZRouterDelegate: AnyObject {
     func viewNeedsRoute(to route: ViewZRoute)
 }
 
-struct ViewZ<Router: ViewZRouter>: View {
+struct ViewZ<Router: ViewZRouterDelegate>: View {
     
-    var router: Router
+    weak var router: Router?
     
     var body: some View {
         
         Button(action: {
-            router.viewNeedsRoute(to: .done)
+            router?.viewNeedsRoute(to: .done)
         }, label: {
             Text("Done")
         })

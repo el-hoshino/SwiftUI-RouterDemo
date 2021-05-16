@@ -13,32 +13,32 @@ enum ViewARoute {
     case z
 }
 
-protocol ViewARouter: AnyObject {
+protocol ViewARouterDelegate: AnyObject {
     func viewNeedsRoute(to route: ViewARoute)
 }
 
-struct ViewA<Router: ViewARouter>: View {
+struct ViewA<Router: ViewARouterDelegate>: View {
     
-    var router: Router
+    weak var router: Router?
     
     var body: some View {
         
         VStack {
             
             Button {
-                router.viewNeedsRoute(to: .b)
+                router?.viewNeedsRoute(to: .b)
             } label: {
                 Text("Tap me to View B")
             }
             
             Button {
-                router.viewNeedsRoute(to: .c)
+                router?.viewNeedsRoute(to: .c)
             } label: {
                 Text("Tap me to View C")
             }
             
             Button {
-                router.viewNeedsRoute(to: .z)
+                router?.viewNeedsRoute(to: .z)
             } label: {
                 Text("Tap me to View Z")
             }

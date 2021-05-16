@@ -142,7 +142,7 @@ extension Router: RouterObject {
     
 }
 
-extension Router: ViewARouter {
+extension Router: ViewARouterDelegate {
     
     func viewNeedsRoute(to route: ViewARoute) {
         viewARoute = route
@@ -150,7 +150,7 @@ extension Router: ViewARouter {
     
 }
 
-extension Router: ViewBRouter {
+extension Router: ViewBRouterDelegate {
     
     func viewNeedsRoute(to route: ViewBRoute) {
         viewBRoute = route
@@ -158,7 +158,7 @@ extension Router: ViewBRouter {
     
 }
 
-extension Router: ViewCRouter {
+extension Router: ViewCRouterDelegate {
     
     func viewNeedsRoute(to route: ViewCRoute) {
         switch route {
@@ -170,7 +170,7 @@ extension Router: ViewCRouter {
     
 }
 
-extension Router: ViewDRouter {
+extension Router: ViewDRouterDelegate {
     
     func viewNeedsRoute(to route: ViewDRoute) {
         switch route {
@@ -183,7 +183,7 @@ extension Router: ViewDRouter {
     
 }
 
-extension Router: ViewZRouter {
+extension Router: ViewZRouterDelegate {
     
     func viewNeedsRoute(to route: ViewZRoute) {
         switch route {
