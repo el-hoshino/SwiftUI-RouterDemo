@@ -11,8 +11,6 @@
 		BF4436DC2651828B00485F40 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436DB2651828B00485F40 /* Tests_macOS.swift */; };
 		BF4436DE2651828B00485F40 /* SwiftUI_RouterDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436B52651828900485F40 /* SwiftUI_RouterDemoApp.swift */; };
 		BF4436DF2651828B00485F40 /* SwiftUI_RouterDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436B52651828900485F40 /* SwiftUI_RouterDemoApp.swift */; };
-		BF4436E02651828B00485F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436B62651828900485F40 /* ContentView.swift */; };
-		BF4436E12651828B00485F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436B62651828900485F40 /* ContentView.swift */; };
 		BF4436E22651828B00485F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4436B72651828B00485F40 /* Assets.xcassets */; };
 		BF4436E32651828B00485F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4436B72651828B00485F40 /* Assets.xcassets */; };
 		BF4436F3265182DD00485F40 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F2265182DC00485F40 /* ViewA.swift */; };
@@ -50,7 +48,6 @@
 
 /* Begin PBXFileReference section */
 		BF4436B52651828900485F40 /* SwiftUI_RouterDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_RouterDemoApp.swift; sourceTree = "<group>"; };
-		BF4436B62651828900485F40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF4436B72651828B00485F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4436BC2651828B00485F40 /* SwiftUI-RouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-RouterDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4436BF2651828B00485F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -120,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				BF4436B52651828900485F40 /* SwiftUI_RouterDemoApp.swift */,
-				BF4436B62651828900485F40 /* ContentView.swift */,
 				BF4436F2265182DC00485F40 /* ViewA.swift */,
 				BF4436F52651832600485F40 /* ViewB.swift */,
 				BF4436F82651853000485F40 /* ViewC.swift */,
@@ -336,7 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4436E02651828B00485F40 /* ContentView.swift in Sources */,
 				BF4436FC2651855500485F40 /* ViewD.swift in Sources */,
 				BF4436F3265182DD00485F40 /* ViewA.swift in Sources */,
 				BF4436F92651853000485F40 /* ViewC.swift in Sources */,
@@ -352,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4436E12651828B00485F40 /* ContentView.swift in Sources */,
 				BF4436FD2651855500485F40 /* ViewD.swift in Sources */,
 				BF4436F4265182DD00485F40 /* ViewA.swift in Sources */,
 				BF4436FA2651853000485F40 /* ViewC.swift in Sources */,

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SwiftUI_RouterDemoApp: App {
+    @StateObject private var router = Router()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            router.makeView()
         }
     }
 }
