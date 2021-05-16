@@ -25,6 +25,8 @@
 		BF4436FD2651855500485F40 /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FB2651855500485F40 /* ViewD.swift */; };
 		BF4436FF2651856800485F40 /* ViewZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FE2651856800485F40 /* ViewZ.swift */; };
 		BF4437002651856800485F40 /* ViewZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FE2651856800485F40 /* ViewZ.swift */; };
+		BF4437022651867900485F40 /* RoutingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4437012651867900485F40 /* RoutingModifier.swift */; };
+		BF4437032651867900485F40 /* RoutingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4437012651867900485F40 /* RoutingModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		BF4436F82651853000485F40 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		BF4436FB2651855500485F40 /* ViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
 		BF4436FE2651856800485F40 /* ViewZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewZ.swift; sourceTree = "<group>"; };
+		BF4437012651867900485F40 /* RoutingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				BF4436F82651853000485F40 /* ViewC.swift */,
 				BF4436FB2651855500485F40 /* ViewD.swift */,
 				BF4436FE2651856800485F40 /* ViewZ.swift */,
+				BF4437012651867900485F40 /* RoutingModifier.swift */,
 				BF4436B72651828B00485F40 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -335,6 +339,7 @@
 				BF4436DE2651828B00485F40 /* SwiftUI_RouterDemoApp.swift in Sources */,
 				BF4436F62651832600485F40 /* ViewB.swift in Sources */,
 				BF4436FF2651856800485F40 /* ViewZ.swift in Sources */,
+				BF4437022651867900485F40 /* RoutingModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +354,7 @@
 				BF4436DF2651828B00485F40 /* SwiftUI_RouterDemoApp.swift in Sources */,
 				BF4436F72651832600485F40 /* ViewB.swift in Sources */,
 				BF4437002651856800485F40 /* ViewZ.swift in Sources */,
+				BF4437032651867900485F40 /* RoutingModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
