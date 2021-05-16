@@ -15,6 +15,16 @@
 		BF4436E12651828B00485F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436B62651828900485F40 /* ContentView.swift */; };
 		BF4436E22651828B00485F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4436B72651828B00485F40 /* Assets.xcassets */; };
 		BF4436E32651828B00485F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4436B72651828B00485F40 /* Assets.xcassets */; };
+		BF4436F3265182DD00485F40 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F2265182DC00485F40 /* ViewA.swift */; };
+		BF4436F4265182DD00485F40 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F2265182DC00485F40 /* ViewA.swift */; };
+		BF4436F62651832600485F40 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F52651832600485F40 /* ViewB.swift */; };
+		BF4436F72651832600485F40 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F52651832600485F40 /* ViewB.swift */; };
+		BF4436F92651853000485F40 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F82651853000485F40 /* ViewC.swift */; };
+		BF4436FA2651853000485F40 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436F82651853000485F40 /* ViewC.swift */; };
+		BF4436FC2651855500485F40 /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FB2651855500485F40 /* ViewD.swift */; };
+		BF4436FD2651855500485F40 /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FB2651855500485F40 /* ViewD.swift */; };
+		BF4436FF2651856800485F40 /* ViewZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FE2651856800485F40 /* ViewZ.swift */; };
+		BF4437002651856800485F40 /* ViewZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4436FE2651856800485F40 /* ViewZ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		BF4436D72651828B00485F40 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4436DB2651828B00485F40 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		BF4436DD2651828B00485F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4436F2265182DC00485F40 /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		BF4436F52651832600485F40 /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		BF4436F82651853000485F40 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
+		BF4436FB2651855500485F40 /* ViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
+		BF4436FE2651856800485F40 /* ViewZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewZ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +115,11 @@
 			children = (
 				BF4436B52651828900485F40 /* SwiftUI_RouterDemoApp.swift */,
 				BF4436B62651828900485F40 /* ContentView.swift */,
+				BF4436F2265182DC00485F40 /* ViewA.swift */,
+				BF4436F52651832600485F40 /* ViewB.swift */,
+				BF4436F82651853000485F40 /* ViewC.swift */,
+				BF4436FB2651855500485F40 /* ViewD.swift */,
+				BF4436FE2651856800485F40 /* ViewZ.swift */,
 				BF4436B72651828B00485F40 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,7 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4436E02651828B00485F40 /* ContentView.swift in Sources */,
+				BF4436FC2651855500485F40 /* ViewD.swift in Sources */,
+				BF4436F3265182DD00485F40 /* ViewA.swift in Sources */,
+				BF4436F92651853000485F40 /* ViewC.swift in Sources */,
 				BF4436DE2651828B00485F40 /* SwiftUI_RouterDemoApp.swift in Sources */,
+				BF4436F62651832600485F40 /* ViewB.swift in Sources */,
+				BF4436FF2651856800485F40 /* ViewZ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4436E12651828B00485F40 /* ContentView.swift in Sources */,
+				BF4436FD2651855500485F40 /* ViewD.swift in Sources */,
+				BF4436F4265182DD00485F40 /* ViewA.swift in Sources */,
+				BF4436FA2651853000485F40 /* ViewC.swift in Sources */,
 				BF4436DF2651828B00485F40 /* SwiftUI_RouterDemoApp.swift in Sources */,
+				BF4436F72651832600485F40 /* ViewB.swift in Sources */,
+				BF4437002651856800485F40 /* ViewZ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
