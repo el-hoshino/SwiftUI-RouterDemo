@@ -178,6 +178,7 @@ extension Router: ViewDRouterDelegate {
             assert(viewARoute == .b)
             assert(viewBRoute?.isD ?? false)
             viewARoute = nil
+            viewBRoute = nil
         }
     }
     
